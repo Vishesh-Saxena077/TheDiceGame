@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&family=Tilt+Prism&display=swap');
+:root {
+    --clr1: #00d900;
+    --clr2: #ff0000;
+    --clr3: #ffffff;
+    --clr4: #9d00ff;
+    --clr5: #ffae00;
+    --bgclr: #190034;
+    --f1: 'Pacifico', cursive;
+    --f2: 'Roboto', sans-serif;
+    --f3: 'Tilt Prism', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--clr3);
+}
+
+.container {
+    height: 100vh;
+    width: auto;
+    background-color: var(--bgclr);
+}
+
+header {
+    background-color: rgba(62, 0, 249, 0.619);
+    padding: 10px;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: var(--f3);
+    color: var(--clr5);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.club {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dice {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    font-family: var(--f1);
+    font-size: 20px;
+    color: #ffae00;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-family: var(--f2);
+    font-weight: bold;
+    color: var(--bgclr);
+}
