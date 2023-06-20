@@ -1,6 +1,6 @@
 var storedPerson = JSON.parse(localStorage.getItem('person'));
 if (storedPerson === null || storedPerson === undefined) {
-    window.location.replace('page1.html');
+    window.location.replace('index.html');
 }
 var arr1 = [storedPerson.p1, storedPerson.p2];
 var c1 = 0;
